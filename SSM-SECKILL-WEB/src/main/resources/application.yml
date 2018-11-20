@@ -1,0 +1,16 @@
+spring:
+  application:
+    name: ssm-seckill-web
+  dubbo:
+    registry:
+      address: zookeeper://127.0.0.1:2181
+  #redis配置
+  redis:
+    host: localhost
+    port: 6379
+    password: hyman
+    database: 0
+server:
+  port: 8080
+redis:
+  limit: 10
